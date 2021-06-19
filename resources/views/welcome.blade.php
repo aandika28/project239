@@ -51,7 +51,9 @@
         <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
         <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Services</span></a></li>
         <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
-        <li><a href="{{ route('ridentitas') }}" class="nav-link scrollto"><i class="bx bx-ghost"></i> <span>Identitas</span></a></li>
+        <!-- <li><a href="{{ route('ridentitas') }}" class="nav-link scrollto"><i class="bx bx-ghost"></i> <span>Identitas</span></a></li> -->
+        <!-- ke halaman product -->
+        <a href="{{ route('product.index') }}" class="nav-link scrollto"><i class="bx bx-package"></i> <span>Product</span></a></li> 
       </ul>
     </nav><!-- .nav-menu -->
 
@@ -249,7 +251,7 @@
           <div class="col-lg-6">
             <h3 class="resume-title">Sumary</h3>
             <div class="resume-item pb-0">
-              <h4>Ida Puru Andika</h4>
+              <h4>Ida Putu Andika</h4>
               <p><em>Innovative and deadline-driven Graphic Designer with 3+ years of experience designing and developing user-centered digital/print marketing material from initial concept to final, polished deliverable.</em></p>
               <ul>
                 <li>Portland par 127,Orlando, FL</li>
